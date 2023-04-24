@@ -1,0 +1,83 @@
+/* tablet */
+
+@media(max-width:991px){
+    .exper > div{
+        flex-basis: 46%;
+    }
+
+    .contact-form .box-contact{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .contact-form form{
+        padding-left: 0;
+    }
+
+    .box-contact p{
+        margin: 40px auto;
+    }
+}
+
+/* tablet */
+
+/* mobile */
+
+@media(max-width:768px){
+
+    .footer , .contact-form , .project , .exper , .landing{
+        padding: 60px 10px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .content img{
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .content > div{
+        order: 2;
+        text-align: center;
+    }
+
+    .content > div p{
+        margin: 20px auto;
+    }
+
+    .content .contact{
+        margin: 0 auto;
+    }
+
+    .exper > div{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .boxes-project > div{
+        flex-basis: 100%;
+    }
+
+    
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer a{
+        margin-bottom: 20px;
+    }
+
+    body{
+        font-size: 10px;
+    }
+}
+
+/* mobile */
